@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HelloServerlessBlazor.Functions": {
+      "commandName": "Project",
+      "commandLineArgs": "start --cors *"
+    }
+  }
+}
