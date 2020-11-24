@@ -5,7 +5,14 @@ VisualStudioVersion = 16.0.30709.64
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloServerlessBlazor.Functions", "HelloServerlessBlazor.Functions\HelloServerlessBlazor.Functions.csproj", "{27A96F9F-2BF9-4AE7-8383-6520D4B4C491}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloServerlessBlazor.Web", "HelloServerlessBlazor.Web\HelloServerlessBlazor.Web.csproj", "{F1595201-3F8F-4A32-8710-53B28AB6BDA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloServerlessBlazor.Web", "HelloServerlessBlazor.Web\HelloServerlessBlazor.Web.csproj", "{F1595201-3F8F-4A32-8710-53B28AB6BDA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{AE52C696-0223-40A8-81AE-E9624E9DB4E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{F081C79F-DAD5-42BB-A596-5B9914421C87}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\azure-static-web-apps-nice-pebble-07437e30f.yml = .github\workflows\azure-static-web-apps-nice-pebble-07437e30f.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +31,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F081C79F-DAD5-42BB-A596-5B9914421C87} = {AE52C696-0223-40A8-81AE-E9624E9DB4E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {423D695F-6C4F-471F-9C7B-51BF3E54C665}
